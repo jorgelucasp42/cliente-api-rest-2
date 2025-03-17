@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class ClienteApiRest2Application {
 	@GetMapping("/api")
 	public String ola() {
-		return "Ola mundo";
+		return "Seja bem-vindo à aplicação!";
 	}
 	public static void main(String[] args) {
 		SpringApplication.run(ClienteApiRest2Application.class, args);
